@@ -213,15 +213,13 @@ body {
   margin: auto;
 }
 .img-projects img {
+  position: relative;
   width: 100%;
-  max-width: 500px;
-  aspect-ratio: 1.5 / 1;
   height: auto;
+  text-align: right;
+  overflow: hidden;
   object-fit: cover;
-  border-radius: 6px;
-  display: block;
-  margin: 0 auto;
-  transition: all 0.5s ease;
+  transition: all ease 0.5s;
 }
 .img-projects img:hover {
   transform: scale(1.05);
